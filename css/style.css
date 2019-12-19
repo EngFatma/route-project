@@ -1,5 +1,9 @@
 body {
-    font-family: ' segoe ui light ';
+    font-family: 'segoe ui light'!important;
+}
+
+.header_txt {
+    border-bottom: 2px solid red;
 }
 
 .img-item {
