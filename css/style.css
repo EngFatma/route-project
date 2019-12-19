@@ -1,0 +1,80 @@
+body {
+    font-family: ' segoe ui light ';
+}
+
+.img-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.img-caption {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    width: 80%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.box-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .55);
+    /* to hide it instead of using display nonethat conflict with display none and transform */
+    transform: scale(0, 0);
+    -webkit-transform: scale(0, 0);
+    -moz-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+}
+
+.box-img {
+    width: 50%;
+    height: 500px;
+    background-image: url(../imgs/portfolio-3.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    transition: transform .5s ease-in-out;
+    -webkit-transition: transform .5s ease-in-out;
+    -moz-transition: transform .5s ease-in-out;
+    -ms-transition: transform .5s ease-in-out;
+    -o-transition: transform .5s ease-in-out;
+    /* to hide it instead of using display nonethat conflict with display none and transform */
+    transform: scale(0, 0);
+    -webkit-transform: scale(0, 0);
+    -moz-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+}
+
+.box-img i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media(max-width:320px) {
+    .box-img {
+        width: 75%;
+        height: 320px;
+    }
+}
+
+@media(max-width:768px) {
+    .img-caption {
+        position: absolute;
+        bottom: 10%;
+        left: 15%;
+        width: 75%;
+        background-color: #fff;
+        padding: 8px;
+    }
+}
