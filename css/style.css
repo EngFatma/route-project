@@ -3,7 +3,7 @@ body {
 }
 
 .header_txt {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid blue;
 }
 
 .img-item {
@@ -26,7 +26,7 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .55);
+    background-color: rgba(121, 94, 94, 0.55);
     /* to hide it instead of using display nonethat conflict with display none and transform */
     transform: scale(0, 0);
     -webkit-transform: scale(0, 0);
